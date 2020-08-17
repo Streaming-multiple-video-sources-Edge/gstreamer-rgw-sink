@@ -13,16 +13,18 @@ setup_args = dict(
     description='Gstreamer sink plugin to rgw ceph object storage',
     long_description_content_type="text/markdown",
     long_description=README + '\n\n' + HISTORY,
-    license='MIT',
+    license='',
     author='Neeha Kompala & Jason Weng'
     author_email='nkompala@redhat.com', 'jweng2017@gmail.com'
     keywords=['Gstreamer', 'Ceph Object Storage', 'RGW', 'Python 3'],
     url='https://github.com/Streaming-multiple-video-sources-Edge/gstreamer-rgw-sink.git',
     packages=setuptools.find_packages(),
     classifiers=[
-        "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
+        "Programming Language :: Python",
+        "License :: OSI Approved,
+        "Operating System :: POSIX :: Linux",
+        "Natural Language :: English",
+        "Topic :: Software Development", 
     ],
     python_requires='>=3.6',
 )
