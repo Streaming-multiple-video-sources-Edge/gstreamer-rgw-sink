@@ -21,7 +21,7 @@ setup_args = dict(
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python",
-        "License :: OSI Approved,
+        "License :: OSI Approved",
         "Operating System :: POSIX :: Linux",
         "Natural Language :: English",
         "Topic :: Software Development", 
