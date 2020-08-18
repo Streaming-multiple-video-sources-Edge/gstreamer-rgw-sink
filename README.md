@@ -1,4 +1,4 @@
-Gstreamer ceph rgw sinik plugin. 
+Gstreamer ceph rgw sink plugin. 
 Streams video from a src to ceph object storage. 
 
 # Pip install
