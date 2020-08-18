@@ -32,6 +32,8 @@ setup_args = dict(
 install_requires = [
     'boto3',
     'botocore',
+    'PyGObject>=3.34.0',
+    
     
 ]
 
