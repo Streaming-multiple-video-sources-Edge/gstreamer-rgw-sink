@@ -18,7 +18,7 @@ setup_args = dict(
     author_email='jweng2017@gmail.com',
     keywords=['Gstreamer', 'Ceph Object Storage', 'RGW', 'Python 3'],
     url='https://github.com/Streaming-multiple-video-sources-Edge/gstreamer-rgw-sink.git',
-    packages=setuptools.find_packages(),
+    packages=find_packages(),
     classifiers=[
         "Development Status :: 3 - Alpha",    
         "Intended Audience :: Developers",      
