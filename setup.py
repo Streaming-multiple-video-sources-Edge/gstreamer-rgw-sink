@@ -1,18 +1,18 @@
 
 from setuptools import setup, find_packages
 
-# with open('README.md') as readme_file:
-#     README = readme_file.read()
+with open('README.md') as readme_file:
+    README = readme_file.read()
 
 # with open('HISTORY.md') as history_file:
 #     HISTORY = history_file.read()
 
 setup_args = dict(
     name='gstreamer-rgw-sink',
-    version='0.0.3',
+    version='0.0.4',
     description='Gstreamer sink plugin to rgw ceph object storage',
     long_description_content_type="text/markdown",
-    long_description=README + '\n\n' + HISTORY,
+    long_description=README,
     license='MIT',
     author='Neeha Kompala & Jason Weng',
     author_email='jweng2017@gmail.com',
@@ -37,8 +37,6 @@ install_requires = [
     'boto3',
     'botocore',
     'PyGObject>=3.34.0',
-    
-    
 ]
 
 if __name__ == '__main__':
