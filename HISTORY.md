@@ -11,11 +11,11 @@ dev
 
 **Improvements**
 
-- ```README update & download bug fix```
+- ```README update```
 
 **Bugfixes**
 
-- ```n/a```
+- ```Download error: [Errno 2] No such file or directory: 'HISTORY.md' FIXED```
 
 **Dependencies**
 
