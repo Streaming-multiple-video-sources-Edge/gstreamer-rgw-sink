@@ -1,11 +1,11 @@
 
 from setuptools import setup, find_packages
 
-with open('README.md') as readme_file:
-    README = readme_file.read()
+# with open('README.md') as readme_file:
+#     README = readme_file.read()
 
-with open('HISTORY.md') as history_file:
-    HISTORY = history_file.read()
+# with open('HISTORY.md') as history_file:
+#     HISTORY = history_file.read()
 
 setup_args = dict(
     name='gstreamer-rgw-sink',
