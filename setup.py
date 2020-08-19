@@ -9,7 +9,7 @@ with open('HISTORY.md') as history_file:
 
 setup_args = dict(
     name='gstreamer-rgw-sink',
-    version='0.0.2',
+    version='0.0.3',
     description='Gstreamer sink plugin to rgw ceph object storage',
     long_description_content_type="text/markdown",
     long_description=README + '\n\n' + HISTORY,
@@ -18,7 +18,7 @@ setup_args = dict(
     author_email='jweng2017@gmail.com',
     keywords=['Gstreamer', 'Ceph Object Storage', 'RGW', 'Python 3'],
     url='https://github.com/Streaming-multiple-video-sources-Edge/gstreamer-rgw-sink.git',
-    download_url='https://github.com/Streaming-multiple-video-sources-Edge/gstreamer-rgw-sink/archive/v0.0.2.tar.gz',
+    download_url='https://github.com/Streaming-multiple-video-sources-Edge/gstreamer-rgw-sink/archive/v0.0.3.tar.gz',
     packages=find_packages(),
     classifiers=[
         "Development Status :: 3 - Alpha",    
